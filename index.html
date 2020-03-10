@@ -7,21 +7,23 @@
     about it (description, author, keywords, etc) Charset attribute says to the browser that the code is using the utf-8 enconding system.
   É como se falasse em qual dicionário o browser tem que olhar pra mostrar o código. Se colocar o errado o site fica com aqueles
 caractéres estranhos. Para colocar emojis, dá para copiar e colar ele do site Unicode character table-->
-  <title> 🐾 Lari Mais Site</title>
+  <title> Lari First Site</title>
+  <link rel="stylesheet" href="css\styles.css">
+
 </head>
 
 <body>
-  <table cellspacing="10">
+  <table cellspacing="20">
     <tr>
-      <td> <img height="180px" src="Brazil.jpg" alt="Rio de Janeiro"></td>
+      <td> <img id="profileimg" src="images/Profile.jpg" alt="Rio de Janeiro"></td>
       <!-- if i wanna add a image from internet i just have to copy the URL or if i wanna create a file inside my
       "HTML- Personal Site" called images i would write src="images/Brazil.jpg"-->
       <td>
         <h1> Larissa Mara </h1>
-        <p><em> Graduated in Finacial managment and<strong> IT Student </strong></em></p>
+        <p id="subtitle"> Graduated in Finacial Management and<strong> IT Student </strong><br>
         <!-- In the line above, I could have used <<i></i> to italicize it and <<b></b> to make it bold, but it just tell the browser
         to style it and the ones that was used give some information to the Browser (to emphasize it or make it stronger) -->
-        <p>I came from Brazil to Ireland to learn English, but now it seems like my life took another turn</p>
+        From Sorocaba - Brazil 🌎</p>
       </td>
     </tr>
   </table>
@@ -29,19 +31,19 @@ caractéres estranhos. Para colocar emojis, dá para copiar e colar ele do site 
   <h3>Education</h3>
   <ul>
     <!--unorded list -->
-    <li>Technical Management -<a href="https://www.etecfernandoprestes.com.br/">Fernando Prestes</a> </li>
-    <li>Financial Managment Degree - Faculdade Ipanema</li>
-    <li>Advanced English - Griffith College</li>
-    <li>Proficience English - Direct English</li>
+    <li>Technical Business Management - Fernando Prestes (2013)</li>
+    <li>Financial Management Degree - Faculdade Ipanema (2016)</li>
+    <li>Proficience English - Direct English Ireland (2020)</li>
+    <li>Web Development Bootcamp - <a href="https://www.udemy.com/">Udemy</a> (2020) </li>
   </ul>
-  <h3>Hobbies</h3>
   <hr>
+  <h3>Hobbies</h3>
   <ol type="I">
     <!-- ordered list - it will be shown with 1. 2. 3. or other attribute-->
-    <li>Dance - I LOVE IT</li>
-    <li>Listen to Music</li>
-    <li>Buying Clothes</li>
-    <li>knowing General Curiosities</li>
+    <li> Travelling - <a href="travelling.html">My trips</a></li>
+    <li>Music & Movies</li>
+    <li>Adventures</li>
+    <li>Sleeping</li>
   </ol>
   <hr>
   <h3>Skills</h3>
@@ -91,8 +93,9 @@ caractéres estranhos. Para colocar emojis, dá para copiar e colar ele do site 
       </tr> <!-- fechei a linha-->
   </table> <!-- fechei a tabela-->
 
+<!--
   <a href="contact.html"><strong>Contact Me</strong></a>
-
+-->
 </body>
 
 </html>
